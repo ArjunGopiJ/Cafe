@@ -1,0 +1,116 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+nav{
+    background-color: black;
+    border-color:red;
+    border-width:2px;
+    border-style: solid;
+
+}
+li{
+
+    color:white;
+    margin:7px;
+    padding:10px;
+    cursor: pointer;
+    list-style-type:none;
+}
+li:hover{
+    color:yellow;
+
+}
+
+
+ul{
+    display:flex;
+    
+}
+#head{
+    background-color:brown;
+    border-color:wheat;
+    border-width:2px;
+    border-style: solid;
+}
+#head .hj{
+    display: block;
+    color:white;
+    display: block;
+}
+#head .gh{
+    display: block;
+    color:pink;
+    display: block;
+}
+#in{
+    background-color: black;
+}
+#in img{
+    display: flex;
+    border-color:peru;
+    border-width:2px;
+    border-style:solid;
+    width: 99.60%;
+    height:70%;
+    
+
+}
+#content{
+    background-color:black;
+    border-color:red;
+    border-width:2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+#content ul{
+    display:flex;
+    
+}
+#content li{
+    color: wheat;
+}
+#content li:hover{
+    color: yellow;
+}
+@media screen and (max-width:414px){
+    nav{
+        width:100%;
+    }
+    li{
+        margin-right:1px;
+        padding-right:1px;
+        font-size: 13px;
+    }
+    ul{
+        display: flex;
+    }
+    #head{
+        width:100%;
+    }
+    #head .gh{
+        font-size: 27px;
+        position: relative;
+        left:-10px;
+    }
+    #in{
+        width: 100%;
+    }
+    #in img{
+        height:70%;
+    }
+    #content{
+        width: 100%;
+    }
+   #content li{
+        margin-right:1px;
+        padding-right:1px;
+        font-size: 10px;
+    }
+   #content ul{
+        display: flex;
+        position: relative;
+        left:-17px;
+    }
+}

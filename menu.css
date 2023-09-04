@@ -1,0 +1,484 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+nav{
+    background-color: black;
+    border-color:wheat;
+    border-width:3px;
+    border-style: solid;
+
+}
+li{
+
+    color:white;
+    margin:7px;
+    padding:10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+li:hover{
+    color:yellow;
+
+}
+
+
+ul{
+    display:flex;
+    
+}
+#head{
+    display:block;
+    background-color:brown;
+    border-color:black;
+    border-width:3px;
+    border-style: solid;
+}
+#head .hj{
+    color:white;
+    display: block;
+}
+#head .gh{
+    color:pink;
+    display: block;
+}
+
+ #me{
+    background-color: black;
+    border-color:wheat;
+    border-width:3px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+#me h1{
+    display: flex;
+    color:pink;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#bur{
+    background-color:red;
+    display:flex;
+}
+#bur img{
+    display:flex;
+     border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    right:-60%;
+}
+#bur ul{
+    display: block;
+
+}
+#bur li{
+    color:black;
+    padding:1px;
+    margin:1px;
+    position: relative;
+    right: -140%;
+}
+#bur tr{
+    display:block;
+    position: relative;
+    left: -75%;
+    bottom:-60px;
+    
+}
+
+#bur td{
+    color:black;
+}
+#cof{
+    display:flex;
+    background-color:orange;
+}
+#cof img{
+    display:flex;
+    border-color: red;
+   border-width: 2px;
+   border-style: solid;
+   position: relative;
+   right:-60%;
+}
+#cof ul{
+    display:block;
+    
+}
+#cof li{
+    color:black;
+    padding:1px;
+    margin:1px;
+    position: relative;
+    right: -300%;
+
+}
+#cof tr{
+    display:block;
+    position: relative;
+    left: -45%;
+    bottom:-60px;
+}
+#cof td{
+    color:black;
+}
+#bri {
+   background-color:yellow;
+   display: flex;
+}
+
+#bri img {
+    display:flex;
+    border-color: red;
+   border-width: 2px;
+   border-style: solid;
+   position: relative;
+   right:-60%;
+   width:227px;
+}
+#bri ul{
+    display:block;
+    
+}
+#bri li{
+    color:black;
+    padding:1px;
+    margin:1px;
+    position: relative;
+    right: -170%;
+
+}
+#bri tr{
+    display:block;
+    position: relative;
+    left: -70%;
+    bottom:-60px;
+}
+#bri td{
+    color:black;
+}
+#fry {
+    background-color:green;
+    display: flex;
+ }
+ 
+ #fry img {
+     display:flex;
+     border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    right:-60%;
+    width:227px;
+ }
+ #fry ul{
+     display:block;
+     margin:10px;
+     
+ }
+ #fry li{
+     color:black;
+     padding:1px;
+     margin:1px;
+     position: relative;
+     right: -200%;
+ 
+ }
+ #fry tr{
+    display:block;
+    position: relative;
+    left: -80%;
+    bottom:-60px;
+}
+#fry td{
+    color:black;
+}
+ #pas{
+    background-color:blue;
+    display: flex;
+ }
+ 
+ #pas img {
+     display:flex;
+     border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    right:-60%;
+    width:227px;
+ }
+ #pas ul{
+     display:block;
+     
+ }
+ #pas li{
+     color:black;
+     padding:1px;
+     margin:1px;
+     position: relative;
+     right: -240%;
+ 
+ }
+#pas tr{
+    display:block;
+    position: relative;
+    left: -60%;
+    bottom:-60px;
+}
+#pas td{
+    color:black;
+}
+#paro {
+    background-color:indigo;
+    display: flex;
+ }
+ 
+ #paro img {
+     display:flex;
+     border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    right:-60%;
+    width:227px;
+ }
+ #paro ul{
+     display:block;
+     margin:10px;
+     
+ }
+ #paro li{
+     color:black;
+     padding:1px;
+     margin:1px;
+     position: relative;
+     right: -260%;
+ 
+ }
+ #paro tr{
+    display:block;
+    position: relative;
+    left: -60%;
+    bottom:-60px;
+}
+#paro td{
+    color:black;
+}
+@media screen and (max-width:414px){
+    nav{
+        width:100%;
+    }
+    li{
+        margin-right:1px;
+        padding-right:1px;
+        font-size: 13px;
+    }
+    ul{
+        display: flex;
+    }
+    #head{
+        width:100%;
+    }
+    #head .gh{
+        font-size: 27px;
+        position: relative;
+        left:-10px;
+    }
+    .me{
+        width:100%;
+    }
+    #bur{
+        width:100%;
+    }
+    #bur img{
+        width:300px;
+        height:90px;
+        position: relative;
+        right: -228px;
+        bottom:-100px;
+    }
+    #bur ul{
+        display:block;
+        
+    }
+    #bur li{
+        padding:1px;
+        margin:1px;
+        font-size: 13px;
+    }
+    #bur tr{
+    display:block;
+    position: relative;
+    left: -90%;
+    bottom:-60px;
+    size: 19px;
+    
+}
+
+#bur td{
+    color:black;
+    width: 2%;
+}
+#cof{
+    width:100%;
+}
+#cof img{
+    width:300px;
+    height:90px;
+    position: relative;
+    right: -228px;
+    bottom:-100px;
+}
+#cof ul{
+    display:block;
+    
+}
+#cof li{
+    padding:1px;
+    margin:1px;
+    font-size: 13px;
+}
+#cof tr{
+display:block;
+position: relative;
+left: -75%;
+bottom:-60px;
+width:1%;
+
+}
+
+#cof td{
+color:black;
+width: 2%;
+}
+#bri{
+    width:100%;
+}
+#bri img{
+    width:300px;
+    height:90px;
+    position: relative;
+    right: -228px;
+    bottom:-100px;
+}
+#bri ul{
+    display:block;
+    
+}
+#bri li{
+    padding:1px;
+    margin:1px;
+    font-size: 13px;
+}
+#bri tr{
+display:block;
+position: relative;
+left: -75%;
+bottom:-60px;
+width:1%;
+
+}
+
+#bri td{
+color:black;
+width: 2%;
+}
+#fry{
+    width:100%;
+}
+#fry img{
+    width:300px;
+    height:90px;
+    position: relative;
+    right: -228px;
+    bottom:-100px;
+}
+#fry ul{
+    display:block;
+    
+}
+#fry li{
+    padding:1px;
+    margin:1px;
+    font-size: 13px;
+}
+#fry tr{
+display:block;
+position: relative;
+left: -75%;
+bottom:-60px;
+width:1%;
+
+}
+
+#fry td{
+color:black;
+width: 2%;
+}
+#pas{
+    width:100%;
+}
+#pas img{
+    width:300px;
+    height:90px;
+    position: relative;
+    right: -228px;
+    bottom:-100px;
+}
+#pas ul{
+    display:block;
+    
+}
+#pas li{
+    padding:1px;
+    margin:1px;
+    font-size: 13px;
+}
+#pas tr{
+display:block;
+position: relative;
+left: -75%;
+bottom:-60px;
+width:1%;
+
+}
+
+#pas td{
+color:black;
+width: 2%;
+}
+#paro{
+    width:100%;
+}
+#paro img{
+    width:300px;
+    height:90px;
+    position: relative;
+    right: -228px;
+    bottom:-100px;
+}
+#paro ul{
+    display:block;
+    
+}
+#paro li{
+    padding:1px;
+    margin:1px;
+    font-size: 13px;
+}
+#paro tr{
+display:block;
+position: relative;
+left: -75%;
+bottom:-60px;
+width:1%;
+
+}
+
+#paro td{
+color:black;
+width: 2%;
+}
+}
